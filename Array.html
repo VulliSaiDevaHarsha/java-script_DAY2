@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let Product_Info=[10001,"Moblie",29000,"Samsung"]
+    document.write("Product Details are:",Product_Info)
+    document.write("<br>")
+    document.write("Product Details are:",Product_Info[3])
+    document.write("<br>")
+    // console.log("Product Details are:",Product_Info)
+    // alert("Product Details are:",Product_Info)
+    // Product_Info[3]="Apple"
+    // document.write("Product Details are:",Product_Info)
+    // document.write("<br>")
+    // Product_Info[4]="harsha"
+    // document.write("Product Details are:",Product_Info)
+    // document.write("<br>")
+    // document.write("The length of array is",Product_Info.length)
+
+    Product_Info.push(29)
+    document.write("The Updated Array is:",Product_Info)
+    document.write("<br>")
+
+    Product_Info.pop()
+    document.write("The element of array is removed:",Product_Info)
+    document.write("<br>")
+
+    Product_Info.unshift(29)
+    document.write("The Unshift element is added:",Product_Info)
+    document.write("<br>")
+    
+    Product_Info.shift(29)
+    document.write("The shift element is added:",Product_Info)
+    document.write("<br>")
+    document.write("The index of Samsung:",Product_Info.indexOf("Samsung"))
+    document.write("<br>")
+    document.write("This is not in the Array:",Product_Info.indexOf("samsung"))
+    document.write("<br>")
+    document.write("The Slicing element:",Product_Info.slice(0,3))
+
+
+</script>
+</body>
+</html>

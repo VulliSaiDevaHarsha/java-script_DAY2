@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function name(){
+            // console.log("Harsha")
+            // document.write("Harsha")
+        // }
+        // name()
+        // name()
+        // function movie(name){
+            // document.write("name of the Movie",name)
+        // }
+        // var name=prompt("Enter Movie name:")
+        // movie(name)
+
+        //functions with default arugments
+        function wish(name="harsha"){
+            console.log("Hello"+name+"Good Morning")
+            document.write("Hello"+name+"Good Morning")
+        }
+        wish()
+        document.write("<br>")
+        wish("Sai Deva")
+        document.write("<br>")
+
+
+        //function with return type
+        function add(a,b){
+            return a+b;
+        }
+        var result=add(4,5)
+        document.write("Addition of a and b :",result)
+        document.write("<br>")
+
+
+        function square(n){
+            return n*n;
+        }
+        document.write("square of n is:",square(5))
+        document.write("<br>")
+
+        function capitalize(str){
+            return str.toUpperCase()
+        }
+        document.write(capitalize("harsha"))
+    </script>
+</body>
+</html>
